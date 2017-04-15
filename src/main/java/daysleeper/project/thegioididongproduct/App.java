@@ -112,7 +112,7 @@ public class App {
                         //--- writing name of product
                         fo.write(("\"name\":" + "\"" + proName + "\",").getBytes("UTF-8"));
                         //--- writing category
-                        fo.write(("\"name\":" + "\"" + category + "\",").getBytes("UTF-8"));
+                        fo.write(("\"category\":" + "\"" + category + "\",").getBytes("UTF-8"));
                         //--- writing manufacturer
                         fo.write(("\"manufacturer\":" + "\"" + MANUFACTURER + "\",").getBytes("UTF-8"));
                         String price = doc.select("aside.price_sale > div.area_price > strong")
